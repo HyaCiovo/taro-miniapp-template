@@ -1,3 +1,5 @@
+# Preact尝试版本
+
 ## 本地开发
 
 ### 版本要求
@@ -39,7 +41,7 @@ node >= 18.17.0
 ## 所用技术
 
 - [Taro](https://taro-docs.jd.com/docs)
-- [React](https://github.com/zenghongtu/react-use-chinese/blob/master/README.md)
+- [Preact](https://preactjs.com/)
 - [zustand](https://zustand.docs.pmnd.rs/getting-started/introduction)
 - [weapp-tailwindcss](https://weapp-tw.icebreaker.top/docs/quick-start/frameworks/taro)
 - [lodash](https://www.lodashjs.com/)

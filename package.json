@@ -2,10 +2,10 @@
   "name": "hyacinth-miniapp-template",
   "version": "1.0.0",
   "private": true,
-  "description": "Taro3.6 + React + TypeScript + tailwindcss + zustand + @antmjs/vantui3.5 微信/支付宝小程序模板",
+  "description": "Taro3.6 + Preact + TypeScript + tailwindcss + zustand + @antmjs/vantui3.5 微信/支付宝小程序模板",
   "keywords": [
     "taro",
-    "react",
+    "parser",
     "tailwindcss",
     "zustand",
     "vant",
@@ -54,8 +54,7 @@
     "dayjs": "^1.11.13",
     "immer": "^10.1.1",
     "lodash": "^4.17.21",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "preact": "^10.22.0",
     "umtrack-alipay": "^2.8.0",
     "umtrack-wx": "^2.8.0",
     "zustand": "^5.0.1"
@@ -63,7 +62,6 @@
   "devDependencies": {
     "@antmjs/plugin-mini-fix": "^2.4.0",
     "@babel/core": "^7.13.0",
-    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15",
     "@tarojs/cli": "3.6.35",
     "@tarojs/taro-loader": "3.6.35",
     "@tarojs/webpack5-runner": "3.6.35",
@@ -83,7 +81,6 @@
     "eslint-plugin-react-hooks": "^5.0.0",
     "postcss": "^8.4.47",
     "postcss-rem-to-responsive-pixel": "^6.0.2",
-    "react-refresh": "^0.14.2",
     "stylelint": "^14.6.1",
     "tailwindcss": "^3.4.14",
     "typescript": "^5.6.3",

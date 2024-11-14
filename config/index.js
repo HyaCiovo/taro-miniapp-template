@@ -27,8 +27,9 @@ const config = {
     patterns: [],
     options: {},
   },
-  framework: "react",
+  framework: "preact",
   compiler: "webpack5",
+  prebundle: false,
   hmr: true,
   cache: {
     enable: true, // Webpack 持久化缓存配置，建议开启。默认配置请参考：https://docs.taro.zone/docs/config-detail#cache
@@ -79,7 +80,7 @@ const config = {
       enable: true,
     },
   },
-  plugins: [["@tarojs/plugin-framework-react", { reactMode: "concurrent" }]],
+  plugins: [],
 };
 
 module.exports = function (merge) {
